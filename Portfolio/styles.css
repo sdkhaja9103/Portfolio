@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.examples.com/wp-content/uploads/2017/11/portfolio-brochure1-1024x681.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: rgb(19, 18, 18);
+    background-color: rgba(0, 0, 0, 1);
+}
+
+header {
+    background-color: lightskyblue;
+    color: rgb(8, 7, 7);
+    padding: 1rem;
+    text-align: center;
+    
+  
+    
+}
+
+nav a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: lightskyblue;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+button {
+    background-color: #333;
+    color: rgb(8, 8, 8);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
